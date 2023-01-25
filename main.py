@@ -29,7 +29,7 @@ def create_window(theme):
     return sg.Window('Calculator', layout)
 
 
-theme_menu = ['menu', ['Purlpe', 'dark', 'DarkGray8', 'random']]
+theme_menu = ['menu', ['Purple', 'dark', 'DarkGray8', 'random']]
 window = create_window('Purple')
 
 current_num = []
